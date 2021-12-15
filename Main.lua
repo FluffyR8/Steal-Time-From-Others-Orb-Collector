@@ -1,12 +1,20 @@
 --[[
 UPDATES:
 [/] Changed obfuscation to Moonsec.
-[+] Added Server hop for every 2 minutes. (To use this, put the script in your Auto Execute folder and enabled getgenv().ServerHop.)
+[+] Added Server hop for every 2 minutes.
 [+] Stability.
 [-] Removed UI due to some issues. (And the fact that it's useless.)
-]]--
+
+HOW TO USE SERVERHOP:
+[/] Change the loadstring to..
 
 getgenv().ServerHop = false -- Set to true or false.
+
+loadstring(game:HttpGet("https://git.io/JM98a", true))()
+
+
+To report errors, dm me on Discord: Fluffyy#6542
+]]--
 
 _9BvBr0v48EQ2lQcn, Protected_by_MoonSecV2, Discord = 'discord.gg/gQEH2uZxUk'
 
